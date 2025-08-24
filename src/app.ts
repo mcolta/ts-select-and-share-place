@@ -4,7 +4,6 @@ import 'dotenv/config';
 const form = document.querySelector('form')!;
 const addressInput = document.getElementById('address')! as HTMLInputElement;
 
-// const apiKey = 'AIzaSyBeYTEmt_HUUzwvERw3W5QCmMklTk0Fk7k';
 const apiKey = process.env.GOOGLE_API_KEY;
 
 type GoogleGeocodingResponse = {
